@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        
+    </title>
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }  
+    body{
+        background: #acc5f1;
+    }
+    td{
+        text-align: center;
+    }
+    ._td{
+        height: 40px;
+        width: 200px;
+        font-size: 30px;
+        text-align: center;
+    }
+    input{
+        height: 30px;
+    }
+    .lowercase{
+        text-transform: lowercase;
+    }
+    .uppercase{
+        text-transform: uppercase;
+    }
+    .login_body{
+        
+        margin-left: 20%;
+        margin-top: 10%;
+        background: cornflowerblue;
+        width: 50%;
+        
+    }
+    
+    
+    
+    
+    
+    
+</style>
+    
+</head>
+
+<body>
+    <div>
+        <div class="login_body">
+           <h1 align="center">Login</h1> 
+            <form action="reg_server.php" method="post">
+                <table>
+                    <tr>
+                        <td class="_td">
+                        Name:
+                        </td>
+                        <td>
+                        <input type="text" name='name' placeholder="Name" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  class="_td">
+                        Mail_ID:
+                        </td>
+                        <td class='lowercase'>
+                        <input type="mail" name='email' placeholder="Mail_ID" required/>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  class="_td">
+                        Password
+                        </td>
+                        <td>
+                        <input type="Password" name='password' placeholder="Password" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="">
+                            <a href="login.php">Already Have Account!!<br> Login</a>
+                        </td>
+                        <td>
+                        <input type="submit" value=" Register ">
+                        </td>
+                    </tr>
+                
+                </table>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

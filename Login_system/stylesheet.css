@@ -1,0 +1,23 @@
+ body{
+            background: #c9eaf5;
+        }
+        td{
+            ;
+        }
+        .data{
+            margin-top:10%; 
+            margin-left:10%; 
+            margin-right:10%; 
+            background: lightblue;
+            border:2px solid black;
+        }
+    .none td{
+    border: none;
+    }
+        .id{
+            
+            background: #dba2dd;
+        }
+        .heighlight{
+            background: #dba2dd;
+        }
